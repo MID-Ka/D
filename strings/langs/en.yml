@@ -239,6 +239,7 @@ stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️
 #General Buttons
 CLOSE_BUTTON  : "🗑 Close"
 CLOSEMENU_BUTTON  : "🗑 Close Menu"
+SOURCE_DRAGON : "‹ Source Dragon ›"
 BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
