@@ -85,7 +85,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"],
+                text=_["S_B_9"],
                 url=f"https://t.me/alhajji_support",
             ),
         ],
