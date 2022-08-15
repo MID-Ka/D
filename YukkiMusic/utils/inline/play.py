@@ -57,8 +57,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-
-                text=_["Source_Dragon"], callback_data="close"
+                text=_["Source_Dragon"],
+                url=f"https://t.me/yy8gg"
 
             )
 
