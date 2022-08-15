@@ -47,6 +47,11 @@
         "value": "",
         "required": false
       },
+      "START_IMG_URL": {
+        "description": "رابط صورة التسارت @tlgraphmeda5bot",
+        "value": "",
+        "required": false
+      },
       "MONGO_DB_URI": {
         "description": "قاعدة البيانات",
         "value": "",
