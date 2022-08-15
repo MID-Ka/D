@@ -58,7 +58,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["SOURCE_DRAGON"],
-                url=f"https://t.me/yy8gg"
+                url=f"https://t.me/yy8gg",
             ),
         ],
     ]
