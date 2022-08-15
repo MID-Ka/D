@@ -43,7 +43,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="اشترك هنا", url="https://t.me/yy8gg"
+                text="𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆", url="https://t.me/yy8gg"
             ),                        
         ],        
     ]
@@ -55,7 +55,7 @@ async def check_is_joined(message):
         status = await app.get_chat_member("yy8gg", userid)
         return True
     except Exception:
-        await message.reply_text("عذرا ؏ُـمريـہ أنت غير مشترك في @pla_m1 ** \n**انضم لتستطيع تشغيل الاغاني**",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text("**• عذࢪا عݪيك الأشتࢪاك بقناة اݪبوت أولا :**",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
         return False
 
 # Command
@@ -63,7 +63,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 
 @app.on_message(
-    filters.command(PLAY_COMMAND)
+    command(PLAY_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
