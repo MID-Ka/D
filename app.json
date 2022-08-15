@@ -1,7 +1,7 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "Dragon Music",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "logo": "https://telegra.ph/file/1c167f98ec87794b4af2c.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,67 +14,57 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "آيبي ايدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "ايبي هاش",
         "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "description": "لا تغير شيء",
         "value": "True",
         "required": false
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "توكن بوتك",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "description": "قاعدة البيانات",
         "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "description": "اسم بوتك ، لا تخلي مزخرف",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "آيدي المطور",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "كود بايروجرام @drag46bot",
         "value": "",
         "required": true
       },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
-        "value": "",
-        "required": false
-      },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "description": "آيدي كروب التجربة",
         "value": "",
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "description": "رابط الريبو الخاص فيك",
+        "value": "https://github.com/alhajji",
         "required": true
       },
       "UPSTREAM_BRANCH": {
-        "description": "Upstream Repo's Branch Name",
+        "description": "لا تغير شيء",
         "value": "master",
         "required": true
       }
