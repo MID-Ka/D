@@ -15,6 +15,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
+from strings.filters import command
 from YukkiMusic import app
 from YukkiMusic.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
@@ -46,7 +47,7 @@ SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
 
 
 @app.on_message(
-    filters.command(SETTINGS_COMMAND)
+    command(SETTINGS_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
