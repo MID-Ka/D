@@ -33,6 +33,21 @@
         "value": "",
         "required": true
       },
+      "GITHUB_REPO": {
+        "description": "رابط حسابك",
+        "value": "",
+        "required": false
+      },
+      "SUPPORT_GROUP": {
+        "description": "رابط كروبك",
+        "value": "",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "رابط قناتك",
+        "value": "",
+        "required": false
+      },
       "MONGO_DB_URI": {
         "description": "قاعدة البيانات",
         "value": "",
