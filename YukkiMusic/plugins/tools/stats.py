@@ -21,6 +21,7 @@ from pytgcalls.__version__ import __version__ as pytgver
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command
+from strings.filters import command
 from YukkiMusic import YouTube, app
 from YukkiMusic.core.userbot import assistants
 from YukkiMusic.misc import SUDOERS, pymongodb
@@ -46,7 +47,7 @@ STATS_COMMAND = get_command("STATS_COMMAND")
 
 
 @app.on_message(
-    filters.command(STATS_COMMAND)
+    command(STATS_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
@@ -64,7 +65,7 @@ async def stats_global(client, message: Message, _):
 
 
 @app.on_message(
-    filters.command(GSTATS_COMMAND)
+    command(GSTATS_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
